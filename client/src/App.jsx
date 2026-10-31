@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { io } from 'socket.io-client';
 
-const SERVER = import.meta.env.VITE_SERVER_URL || 'http://localhost:3001';
+const SERVER = import.meta.env.VITE_SERVER_URL || 'https://quickfire-arena1.onrender.com';
 const AVATARS = ['⚡','🚀','🦊','🐉','👾','🦁','🦄','🔥'];
 
 export default function App() {
